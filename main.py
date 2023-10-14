@@ -25,7 +25,7 @@ kgentry.pack()
 def calculate_bmi():
     try:
         t1 = int(kgentry.get())
-        t2 = int(kgentry.get())
+        t2 = int(cmentry.get())
         height = t2 * t2 / 10000
         bmical = t1 / height
         rounded_num = round(bmical, 2)
